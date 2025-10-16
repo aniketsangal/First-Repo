@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="response.html"
+      target="_blank"
+      name="biodata"
+      method="get"
+    ></form>
+    <fieldset>
+      <legend>biodata</legend>
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="enter your name"
+        required
+      />
+      <br /><br />
+      <label for="date of birth">Date of birth</label>
+      <input type="date" id="date" name="date" placeholder="date" required />
+      <br /><br />
+      <label for="attempt">Attempt</label>
+      <input type="number" id="attempt" name="attempt" />
+      <br /><br />
+      <label for="Email">email</label>
+      <input type="email" id="email" placeholder="enter your email" required />
+      <br /><br />
+      <label for="tel">phone no.</label>
+      <input
+        type="tel"
+        id="tel"
+        name="tel"
+        placeholder="enter your phone number"
+        required
+      />
+      <br /><br />
+      <label for="add">address</label>
+      <textarea name="text" id="add" rows="5" cols="50"></textarea>
+      <br /><br />
+      <label for="gen">gender</label>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">male</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">female</label>
+      <br /><br />
+      <label for="check">vehicle you have</label>
+      <input type="checkbox" id="bike" name="check" value="bike" required />
+      <label for="bike">bike</label>
+      <input type="checkbox" id="car" name="check" value="car" required />
+      <label for="car">car</label>
+      <br /><br />
+      <label for="pass">password</label>
+      <input
+        type="password"
+        id="pass"
+        name="pass"
+        placeholder="enter your password"
+        required
+      />
+      <br /><br />
+
+      <label for="lang">select your programming language</label>
+
+      <select name="lang" id="lang">
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Java">Java</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Javascript">Javascript</option>
+      </select>
+      <br /><br />
+      <label for="file">file upload</label>
+      <input type="file" id="file" name="file" />
+      <br /><br />
+      <label for="Appoint">Appointment</label>
+      <input type="text" id="Appoint" name="Appoint" required />
+      <input type="submit" />
+      <input type="reset" />
+    </fieldset>
+  </body>
+</html>
